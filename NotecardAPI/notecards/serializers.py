@@ -6,7 +6,7 @@ from .models import Notecard
 class CollectionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Collection
-        fields = ['name']
+        fields = ['id', 'name']
 
 
 class NotecardSerializer(serializers.ModelSerializer):
